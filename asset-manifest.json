@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZmicierSzkiel/react-sneakers/static/css/main.d325aa20.css",
+    "main.js": "/ZmicierSzkiel/react-sneakers/static/js/main.081ca36d.js",
+    "index.html": "/ZmicierSzkiel/react-sneakers/index.html",
+    "main.d325aa20.css.map": "/ZmicierSzkiel/react-sneakers/static/css/main.d325aa20.css.map",
+    "main.081ca36d.js.map": "/ZmicierSzkiel/react-sneakers/static/js/main.081ca36d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d325aa20.css",
+    "static/js/main.081ca36d.js"
+  ]
+}
