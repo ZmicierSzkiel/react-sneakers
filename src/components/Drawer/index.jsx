@@ -49,7 +49,7 @@ function Drawer({ closeCart, onRemove, items = [], opened }) {
           Корзина
           <img
             className="delete-btn cu-p"
-            src="/img/delete-btn.svg"
+            src="img/delete-btn.svg"
             alt="delete"
             onClick={closeCart}
           />
@@ -73,7 +73,7 @@ function Drawer({ closeCart, onRemove, items = [], opened }) {
                   <img
                     onClick={() => onRemove(item.id)}
                     className="delete-btn"
-                    src="/img/delete-btn.svg"
+                    src="img/delete-btn.svg"
                     alt="delete"
                   />
                 </div>
@@ -98,14 +98,14 @@ function Drawer({ closeCart, onRemove, items = [], opened }) {
                 className="green-btn"
               >
                 Оформить заказ
-                <img src="/img/arrow.svg" alt="arrow" />
+                <img src="img/arrow.svg" alt="arrow" />
               </button>
             </div>
           </div>
         ) : (
           <Info
             title={isOrdered ? "Заказ оформлен" : "Корзина пустая"}
-            image={isOrdered ? "/img/ordered.jpg" : "/img/empty-cart.jpg"}
+            image={isOrdered ? "img/ordered.jpg" : "img/empty-cart.jpg"}
             description={
               isOrdered
                 ? `Ваш заказ #${orderId} скоро будет передан курьерской доставке`
