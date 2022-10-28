@@ -42,7 +42,7 @@ function Drawer({ closeCart, onRemove, items = [], opened }) {
   return (
     <div
       className={`${styles.overlay} ${opened ? styles.overlayVisible : ""}`}
-      onClick={closeCart}
+      // onClick={closeCart}
     >
       <div className={styles.drawer}>
         <h2 className="mb-30 d-flex justify-between">
