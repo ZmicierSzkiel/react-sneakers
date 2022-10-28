@@ -1,6 +1,6 @@
 # React Sneakers - sneakers online-shop (russian only)
 
-# <a href="https://zmicierszkiel.github.io/react-sneakers/">Link</a>
+<a href="https://zmicierszkiel.github.io/react-sneakers/">Link</a>
 
 # Stack:
 <ul>
